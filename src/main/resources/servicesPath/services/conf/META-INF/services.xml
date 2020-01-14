@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.7.9  Built on : Nov 16, 2018 (12:05:37 GMT) -->
+<serviceGroup>
+    <service name="CSPRequestService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="iptv.CSPRequestServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">iptv.CSPRequestServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">false</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="execCmd" mep="http://www.w3.org/ns/wsdl/in-out" namespace="iptv">
+            <actionMapping>iptv/CSPRequest/ExecCmdRequest</actionMapping>
+            <outputActionMapping>iptv/CSPRequest/ExecCmdResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
